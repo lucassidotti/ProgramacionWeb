@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Foro motos</title>
+        <style>
+            ul{
+                border: 5px solid black;
+                width: 400px;
+            }
+            li{
+                border: 5px solid brown;
+                width: 300px;
+            }
+            a{ 
+                border: 5px solid blueviolet;
+                padding: 10px;
+            }
+        </style>
+    
+    </head>
+    <body style="background-color: gray;">
+        <header>
+             <div><h1 style="text-align: center; color: blueviolet;"> FORO MOTOS</h1></div>
+        </header>
+     <main>
+        <div style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;">
+             <p>Pagina <em> dedicada a recopilar informacion</em> sobre <strong>motos</strong><br>Fechas de salidas a ruta<br> Próximos encuentros.</p>
+        </div>
+        <div style="text-align: center;">
+             <img src="Imagenes/moto1.jpg" alt="Cafe racer" width="400px" height="300px" style="border: 5px solid black; margin-right: 10px;">
+             <img src="Imagenes/moto2.jpeg" alt="chopper" width="400px" height="300px" style="border: 5px solid black; margin-right: 10px;">
+             <img src="Imagenes/moto3.jpg" alt="custom" width="400px" height="300px" style="border: 5px solid black; margin-right: 10px;"> 
+        </div>
+        <div>
+             <h2 style="text-align: center; font-style: italic;">PROXIMAS FECHAS</h2>
+        </div>
+        <div>
+        <div style="text-align: center;">
+             <a href="https://www.wacken.com/en/" target="_blank"><img src="Imagenes/flyer1.jpg" alt="Fecha1" width="400px" height="300px" style="border: 5px solid red; margin-right: 10px;"></a>
+             <img src="Imagenes/flyer2.jpg" alt="Fecha2" width="400px" height="300px" style="border: 5px solid red; margin-right: 10px;">
+             <img src="Imagenes/flyer3.jpg" alt="Fecha3"width="400px" height="300px" style="border: 5px solid red; margin-right: 10px;">  
+        </div>
+     </main>
+        <div>
+        <ol>
+             <li>login</li> <br>
+             <li>seccion1</li> <br>
+             <li>contactos</li> <br>
+             <li>ingreso</li> <br> 
+        </ol>
+        <ul>
+             <li><a href="https://cursosipfl.trabajo.gba.gob.ar/login" target="_blank">Login</a></li>
+             <li>seccion1</li>
+             <li>contactos</li>
+             <li>ingresos</li>
+        </ul>
+        <br>
+        <table border="1">
+        <tr>
+             <th>Curso</th>
+             <th>Dia</th>
+             <th>Horario</th>
+             <th>Lugar</th>
+        </tr>
+        <tr>
+             <td>Programacion web</td>
+             <td>Lunes y Miercoles</td>
+             <td>17:30 a 21:00</td>
+             <td>IPFL </td>
+        </tr>
+        <tr>
+             <td>Diseño</td>
+             <td><strong>Martes y jueves</strong></td>
+             <td>14 a 16hs</td>
+             <td>IPFL</td>
+        </tr>
+        </table>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/c3VkQY-7FXE?si=BkbpNWPWVUN6_r0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div style="text-align: center">
+         <form action="datos.html" method="post">
+        <fieldset>
+        <legend> Formulario de contacto</legend>
+        <label for="nombre">Nombre</label>
+             <input id="nombre" type="text"> 
+        <label for="apellido">Apellido</label>
+             <input id="apellido" type="text" required>
+        <label for="dni">Dni</label>
+             <input id="dni" type="number" required>  
+        <label for="correo">Email</label>
+             <input id="correo" type="email">
+        <label for="pass">Contraseña</label>
+             <input type="password" id="pass">
+        <label for="date">Fecha de nacimiento</label>
+             <input type="date" id="date">
+             <br>
+        <label for="file">Archivo</label>
+            <input type="file" id="date">
+            <br> 
+        <label for="check">
+            <input type="checkbox" id="check" value="marcar"> Marcar
+            <input type="checkbox" name="" id="check" value="nomarcar"> No marcar
+        </label>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+             <br>
+             <br>
+        <label for="comentarios">Comentarios <br></label>
+        <textarea name="" id="comentarios" rows="20" cols="20"></textarea>
+        </fieldset>
+        </div>
+    
+
+
+        </form>
+        
+        
+        
+        
+        </body>
+        </html>

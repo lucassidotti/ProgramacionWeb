@@ -1,0 +1,57 @@
+/* Indicadores o selectotes 
+Universal: aplica a todo el archivo HTML *
+etiqueta: nombro la etiqueta que le voy a aplicar estilo ej: p, img.
+clase: html: class css: .nombre de la clase
+id: html: atributo id css. #nombre del id */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+*{  
+    margin: 0px;
+    color: rgb(117, 19, 19);
+}
+footer{
+    margin-left: 8px;
+    background-image: url(Imagenes/tori.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* color: cambia el color de la fuente
+background-color: color de fondo 
+baclground-image
+background-size
+background-repeat
+font-family: familia de la fuente 
+font-size: tamaño de la fuente
+font-weight: grosor de la fuente
+text-align: Ubica los elementos de la tabla, y los valores. left, right, center, justify
+text-decoration: decorar el texto. valores: underline, none, overline, line-though
+text-trasform: cambia de min a mayus. valores: uppercase, lowercase
+*/
+legend{
+    text-transform: uppercase;
+    color: blue;
+}
+label{
+    color: blueviolet
+}
+
+ article .texto1{
+    font-family: "Atma";
+    font-size: xx-large;
+}
+.navegador .menu1{
+    text-align: center;
+    list-style: none;
+}
+.menu1 li a{
+    text-decoration: none;
+}
+.encabezado{
+    border: 4px solid green;
+    width: 90%;
+}
+.navegador{
+    border: 4px solid blue;
+}
